@@ -34,7 +34,7 @@ mark[i][j]=1 ;
     	}
     	else
     	{
-    		ll tmp1 = f(i+1,j) ;
+    		   ll tmp1 = f(i+1,j) ;
     			ll tmp2 = f(i,j+1) ;
     	if(tmp1 > tmp2 ) {
      mark[i][j] = 2 ;
